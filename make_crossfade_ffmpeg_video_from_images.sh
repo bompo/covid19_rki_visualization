@@ -42,7 +42,7 @@ output="[0:v]"
 i=0
 
 for f in ${files}; do
-  input+=" -loop 1 -t 1 -i $f"
+  input+=" -loop 1 -t 0.5 -i $f"
 
   next=$((i+1))
   if [ "${i}" -ne "$((n_files-1))" ]; then
