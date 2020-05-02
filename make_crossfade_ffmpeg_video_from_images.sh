@@ -28,7 +28,7 @@
 #----------------------------------------------------------------
 # SETTINGS
 input_dir="last_7_days_maps"  # Replace this by a path to your folder /path/to/your/folder
-n_files=50                   # Replace this by a number of images
+n_files=56                   # Replace this by a number of images
 files=`ls ${input_dir}/*.png | head -${n_files}`  # Change the file type to the correct type of your images
 output_file="last_7_days_maps_result.mp4"           # Name of output video
 crossfade=0.5                     # Crossfade duration between two images
